@@ -28,7 +28,7 @@ function App() {
 function Display() {
   const grp = useContext(NumberContext);
   const add = () => {
-    console.log("czfz");
+    console.log("add");
     grp.fonction();
   };
   return (
